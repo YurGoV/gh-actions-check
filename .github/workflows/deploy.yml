@@ -30,10 +30,10 @@ jobs:
           key: ${{ secrets.KEY_ED25519 }}
           port: ${{ secrets.PORT }}
           script: |
-		mkdir test
-		cd test
-		git clone https://github.com/YurGoV/gh-actions-check.git
-		echo 'deployed to GDO'
+            mkdir test
+            cd test
+            git clone https://github.com/YurGoV/gh-actions-check.git
+            echo 'deployed to GDO'
 
 #      - name: executing remote ssh commands using ssh key
 #        uses: appleboy/ssh-action@master
